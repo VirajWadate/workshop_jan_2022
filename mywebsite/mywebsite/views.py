@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def index(request):
-	return HttpResponse("HELLO WORLD")
+	return HttpResponse("Deployed applicatino on GCP server")
